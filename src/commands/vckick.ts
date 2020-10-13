@@ -21,7 +21,7 @@ export default class VCKick extends Command {
             if (!user) return message.channel.send(`That is not a valid user, pls use \`vcpardon <UserMention|Username|UserID|UserTag>\``);
             if (user.id === message.author.id) return message.channel.send(`you cannot do that to yourself!`);
             message.guild.member(user).voice.setChannel(null);
-            await message.channel.send(`User has been vc pardoned!`);
+            await message.channel.send(`User has been disconnected from your vc!`);
         } else return message.channel.send(`You do not have the permission to do that`);
     }
 }

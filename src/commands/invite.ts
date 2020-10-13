@@ -30,10 +30,10 @@ export default class Invite extends Command {
                 .setColor('RANDOM')
                 .setAuthor(message.author.tag + ' is looking for party members!', message.author.displayAvatarURL({ dynamic: true }))
                 .setThumbnail('https://icons-for-free.com/iconfiles/png/512/group+add+18px-131987943095875365.png')
-                .setDescription(`<:join_blue:757455451662188656> **[Click to join their party](https://discord.gg/${invite.code})**.\n\nIf you want to make your own party, join a voice channel and type \`!invite [Party Info]\` right here.`)
+                .setDescription(`<:join_arrow:714395777505427516> **[Click to join their party](https://discord.gg/${invite.code})**.\n\nIf you want to make your own party, join a voice channel and type \`!invite [Party Info]\` right here.`)
                 .addField('🔊 Channel', message.member.voice.channel.name, true)
-                .addField('<:crewmate_black:722206583542513815> Party Size', currentChannel.members.size + '/' + currentChannel.userLimit + ' Users', true)
-                .addField('<:vent:714575432237711380> Bitrate', message.member.voice.channel.bitrate + 'kbps', true)
+                .addField('👥 Party Size', currentChannel.members.size + '/' + currentChannel.userLimit + ' Users', true)
+                .addField('📡 Bitrate', message.member.voice.channel.bitrate + 'kbps', true)
                 .setFooter('Post your party here. Simply do !invite or post an invite link. (CMD)').setTimestamp();
 
             if (args.length) {

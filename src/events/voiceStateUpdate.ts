@@ -99,11 +99,11 @@ export default class voiceStateUpdate extends Event {
                             }
                             let roomNumber = 1;
                             while (true) {
-                                if (channels.find(c => c.name.includes(`Lobby ${roomNumber}`))) roomNumber++;
+                                if (channels.find(c => c.name.includes(`Room ${roomNumber}`))) roomNumber++;
                                 else break;
                             }
                             if (category.children.size !== 10) {
-                                const channel = await newState.guild.channels.create(`Lobby ${roomNumber}`, {
+                                const channel = await newState.guild.channels.create(`Room ${roomNumber}`, {
                                     type: 'voice',
                                     parent: category,
                                     userLimit: 10,

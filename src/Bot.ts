@@ -12,7 +12,7 @@ export default class Bot extends Client {
     public logger: typeof Logger;
     public prefix: string;
     public profiles: ProfileManager;
-    public constructor(opts: BotOptions, clientOptions: ClientOptions) {
+    public constructor(opts: BotOptions, clientOptions?: ClientOptions) {
         super(clientOptions);
         this.commands = new Collection();
         this.logger = Logger;

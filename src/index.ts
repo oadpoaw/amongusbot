@@ -7,11 +7,7 @@ import Bot from './Bot';
 import { registerCommands, registerEvents } from './functions/Registry';
 import { Intents } from 'discord.js';
 
-const client = new Bot({ prefix: '!' }, {
-    ws: {
-        intents: Intents.ALL,
-    }
-});
+const client = new Bot({ prefix: '!' });
 
 (async function () {
     await registerCommands(client);
