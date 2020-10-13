@@ -9,7 +9,7 @@ export default class VCKick extends Command {
             name: 'vckick',
             description: `disconnects a user from your lobby (Host Only)`,
             clientPermission: [],
-            cooldown: 3,
+            cooldown: 60,
             args: true,
             usage: 'vckick <User>',
             aliases: [],

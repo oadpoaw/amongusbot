@@ -9,7 +9,7 @@ export default class Code extends Command {
             name: 'code',
             description: `Set game code to your discord lobby! (Host Only)`,
             clientPermission: [],
-            cooldown: 3,
+            cooldown: 120,
             args: true,
             usage: 'code <Code> [Region]',
             aliases: ['setcode'],

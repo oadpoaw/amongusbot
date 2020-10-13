@@ -9,7 +9,7 @@ export default class VCBan extends Command {
             name: 'vcban',
             description: `Ban a user from your lobby (Host Only)`,
             clientPermission: [],
-            cooldown: 3,
+            cooldown: 60,
             args: true,
             usage: 'vcban <User>',
             aliases: [],

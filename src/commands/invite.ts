@@ -9,7 +9,7 @@ export default class Invite extends Command {
             name: 'invite',
             description: `Invite some users to your among us game!`,
             clientPermission: [],
-            cooldown: 3,
+            cooldown: 300,
             args: false,
             usage: 'invite [Party Info]',
             aliases: [],

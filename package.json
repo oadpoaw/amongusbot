@@ -8,16 +8,8 @@
     "test": "node .",
     "build": "tsc --build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oadpoaw/bot-boilerplate.git"
-  },
   "author": "oadpoaw",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/oadpoaw/bot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/oadpoaw/bot-boilerplate#readme",
   "dependencies": {
     "@types/node": "^14.11.2",
     "@types/validator": "^13.1.0",

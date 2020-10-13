@@ -9,7 +9,7 @@ export default class VCPardon extends Command {
             name: 'vcpardon',
             description: `Unban/pardon a user from your lobby (Host Only)`,
             clientPermission: [],
-            cooldown: 3,
+            cooldown: 60,
             args: true,
             usage: 'vcpardon <User>',
             aliases: [],
