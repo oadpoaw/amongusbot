@@ -1,7 +1,7 @@
 import Command from '../structures/Command';
 import Bot from '../Bot';
 import { Message } from 'discord.js';
-import { categories } from '../assets/config';
+import { categories } from '../config';
 
 export default class VCPardon extends Command {
     public constructor(client: Bot) {

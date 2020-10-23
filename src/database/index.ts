@@ -28,15 +28,8 @@ const User = db.define('user', {
 });
 
 (async function () {
-    if (process.argv.includes('--dbInit')) {
-        await db.sync({ force: true }).then(_ => {
-            Logger.info(`Database has been dropped`);
-        }).catch(Logger.error);
-    } else {
-        await db.authenticate().then(_ => {
-            Logger.info(`Database authenticated`);
-        }).catch(Logger.error);
-    }
+    await db.sync().catch(Logger.error);
+    await db.authenticate().catch(Logger.error);
 }());
 
 export { User };

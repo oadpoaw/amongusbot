@@ -4,7 +4,7 @@ import { Message, MessageEmbed, Collection, VoiceChannel, TextChannel } from 'di
 import Utils from '../utils/Utils';
 import Random from '../utils/Random';
 import addEXP from '../functions/addEXP';
-import { inviteChannel, categories } from '../assets/config';
+import { inviteChannel, categories } from '../config';
 
 const Cooldowns = new Collection<string, Collection<string, number>>();
 const XPCooldown = new Collection<string, any>();

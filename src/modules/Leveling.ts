@@ -1,6 +1,6 @@
 const LvlChart: number[] = [];
 const ReqLvlChart: number[] = [];
-const maxLevel = 200;
+const maxLevel = 200; // you can change this btw to something bigger
 
 for (let i = 0; i <= maxLevel; i++) {
     ReqLvlChart.push(15 * (i * i) + (50 * i) + 150);

@@ -1,7 +1,7 @@
 import Command from '../structures/Command';
 import Bot from '../Bot';
 import { Message, MessageEmbed, VoiceChannel } from 'discord.js';
-import { inviteChannel } from '../assets/config';
+import { inviteChannel } from '../config';
 
 export default class Invite extends Command {
     public constructor(client: Bot) {

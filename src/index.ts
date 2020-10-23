@@ -5,7 +5,6 @@ config();
 
 import Bot from './Bot';
 import { registerCommands, registerEvents } from './functions/Registry';
-import { Intents } from 'discord.js';
 
 const client = new Bot({ prefix: '!' });
 

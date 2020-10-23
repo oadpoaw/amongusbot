@@ -1,7 +1,7 @@
 import Event from '../structures/Event';
 import Bot from '../Bot';
 import { VoiceState, Collection, CategoryChannel, VoiceChannel } from 'discord.js';
-import { createChannel, findChannel, categories, moderatorRole } from '../assets/config';
+import { createChannel, findChannel, categories, moderatorRole } from '../config';
 
 let blocked = false;
 const cooldowns = new Collection<string, boolean>();
