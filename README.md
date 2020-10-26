@@ -40,7 +40,7 @@ $ npm run build
 Setup configuration on [config.json](/config.json) <br>
 
 Config Details:
-```json
+```jsonc
 {
     "prefix": "!", // Bot's prefix
     "bottoken": "", // Bot's discord api token
