@@ -34,7 +34,6 @@ Features:
 ```sh
 $ git clone https://github.com/oadpoaw/amongusbot.git
 $ cd amongusbot
-$ npm run build
 ```
 
 Setup configuration on [config.json](/dist/config.json) <br>
@@ -79,9 +78,6 @@ Config Details:
 ## Starting the bot
 
 ```sh
-# Compile the bot
-$ npm run build
-# then
 $ npm run start
 # or
 $ node .
