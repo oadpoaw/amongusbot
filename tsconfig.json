@@ -8,7 +8,7 @@
         "outDir": "./dist",
         "declaration": false,
         "esModuleInterop": true,
-        "resolveJsonModule": false
+        "resolveJsonModule": true
     },
     "exclude": [
         "node_modules",

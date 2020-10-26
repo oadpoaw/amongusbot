@@ -37,15 +37,44 @@ $ cd amongusbot
 $ npm run build
 ```
 
-## Setting up the bot
+Setup configuration on [config.json](/config.json) <br>
 
-Create an `.env` file for environment variables <br>
-Containing your bot token
-```env
-DISCORD_TOKEN=PLACEyourBOTtokenHEREforTHIStoWORK
+Config Details:
+```json
+{
+    "prefix": "!", // Bot's prefix
+    "bottoken": "", // Bot's discord api token
+
+    /**
+     * The Create Voice Channel ID 
+     * Its the Channel where you click, it creates a voice channel lobby
+     */
+    "createChannel": "",
+    /**
+     * The Find Voice Channel ID
+     * Its the Channel where you click, it finds a voice channel for you to join a lobby
+     */
+    "findChannel": "",
+    /**
+     * The Moderator role ID
+     * The role who has permissions to manage the voice channels
+     */
+    "moderatorRole": "",
+    /**
+    * The Invite Channel ID
+    * The channel ID where lobby invites are getting sent to
+    */
+    "inviteChannel": "",
+    /**
+    * The Channel Categories
+    * The Categories where temporary voice channels are being made
+    * [Must be in Order]
+    *
+    * Array of string
+    */
+    "categories": []
+}
 ```
-
-See [config.ts](/src/Bot.ts) and set it up, it has the instructions in it
 
 ## Starting the bot
 

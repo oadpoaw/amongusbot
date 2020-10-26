@@ -2,7 +2,7 @@
   "name": "sus",
   "version": "1.0.0",
   "description": "sus bot",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "start": "node .",
     "test": "node .",
@@ -17,6 +17,7 @@
     "discord.js": "^12.4.0",
     "dotenv": "^8.2.0",
     "moment": "^2.29.1",
+    "pretty-ms": "^7.0.1",
     "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0"
   }
