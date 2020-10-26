@@ -6,7 +6,7 @@ import {
     inviteChannel as d,
     categories as e,
     bottoken,
-}  from '../config.json';
+}  from './config.json';
 
 export const prefix = a0;
 export const token = bottoken;

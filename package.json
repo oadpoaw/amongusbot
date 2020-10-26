@@ -2,7 +2,7 @@
     "name": "sus",
     "version": "1.0.0",
     "description": "sus bot",
-    "main": "dist/src/index.js",
+    "main": "dist/index.js",
     "scripts": {
         "start": "node .",
         "test": "node .",

@@ -37,7 +37,7 @@ $ cd amongusbot
 $ npm run build
 ```
 
-Setup configuration on [config.json](/config.json) <br>
+Setup configuration on [config.json](/src/config.json) <br>
 
 Config Details:
 ```jsonc
