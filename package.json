@@ -1,24 +1,27 @@
 {
-  "name": "sus",
-  "version": "1.0.0",
-  "description": "sus bot",
-  "main": "dist/src/index.js",
-  "scripts": {
-    "start": "node .",
-    "test": "node .",
-    "build": "tsc --build"
-  },
-  "author": "oadpoaw",
-  "license": "MIT",
-  "dependencies": {
-    "@types/node": "^14.14.2",
-    "@types/validator": "^13.1.0",
-    "@types/ws": "^7.2.7",
-    "discord.js": "^12.4.0",
-    "dotenv": "^8.2.0",
-    "moment": "^2.29.1",
-    "pretty-ms": "^7.0.1",
-    "sequelize": "^6.3.5",
-    "sqlite3": "^5.0.0"
-  }
+    "name": "sus",
+    "version": "1.0.0",
+    "description": "sus bot",
+    "main": "dist/src/index.js",
+    "scripts": {
+        "start": "node .",
+        "test": "node .",
+        "build": "tsc --build"
+    },
+    "author": "oadpoaw",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^14.14.2",
+        "@types/validator": "^13.1.0",
+        "@types/ws": "^7.2.7",
+        "discord.js": "^12.4.0",
+        "dotenv": "^8.2.0",
+        "moment": "^2.29.1",
+        "pretty-ms": "^7.0.1",
+        "sequelize": "^6.3.5",
+        "sqlite3": "^5.0.0"
+    },
+    "engines": {
+        "node": "12.x"
+    }
 }
