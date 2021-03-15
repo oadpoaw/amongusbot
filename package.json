@@ -18,7 +18,7 @@
         "dotenv": "^8.2.0",
         "moment": "^2.29.1",
         "pretty-ms": "^7.0.1",
-        "sequelize": "^6.5.0",
+        "sequelize": "^6.5.1",
         "sqlite3": "^5.0.1"
     },
     "engines": {
