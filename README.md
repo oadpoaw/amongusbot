@@ -8,7 +8,7 @@
 
 > Among Us Bot For Creating Temporary Voice Channels with Leveling System and more!
 
-Join the bot developer's [discord](https://discord.gg/9X5DVWT) for help and support!
+Join the bot developer's [discord](https://discord.gg/HG8s98Uk) for help and support!
 
 ## AmongUsBot
 Among Us Bot is a discord bot focused on generating dynamic voice channels 
